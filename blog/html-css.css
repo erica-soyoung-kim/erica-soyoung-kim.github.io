@@ -13,7 +13,71 @@ h1 {
   position: absolute;
   bottom: 0;
   left: 5vw;
+  color: black !important;
 }
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 4px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.content {
+  margin: 0;
+}
+
+.a {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  padding: 7px;
+  border-style: solid;
+  background-color: yellow;
+}
+
+.inline .eg {
+  display: inline-block;
+}
+
+.inline {
+  margin: 0;
+  padding: 0;
+}
+
+.arrow {
+  width: 3vw;
+  height: auto;
+}
+
+.b {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 7px;
+  border-style: solid;
+  background-color: yellow;
+}
+
+.c {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 7px;
+  border-style: solid;
+  background-color: yellow;
+}
+
+.blue-color {
+  margin-top: 4vh;
+  color: blue;
+}
+
 
 .flex-container {
   display: flex;
@@ -25,11 +89,7 @@ h1 {
   width: max(80px, 15vw);
 }
 
-#artemis-img {
-  opacity: 0.75;
-  position: absolute;
-  bottom: 0;
-}
+
 
 .left-side {
   margin: 2vw;
@@ -47,8 +107,10 @@ h1 {
   position: relative;
 }
 
-h3 {
-  margin: 4px;
+#artemis-img {
+  opacity: 0.75;
+  position: absolute;
+  bottom: 0;
 }
 
 p {
@@ -70,6 +132,16 @@ a:link, a:visited {
 
 a:hover {
   text-decoration: underline;
+}
+
+.small-img {
+  max-width: 33%;
+  height: auto;
+}
+
+.small-img-code {
+  max-width: 20%;
+  height: auto;
 }
 
 @media only screen and (max-width: 600px) {

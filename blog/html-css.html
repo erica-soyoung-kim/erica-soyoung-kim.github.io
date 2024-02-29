@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display inline vs inline blocks</title>
+    <link rel="stylesheet" href="html-css.css">
+  </head>
+  <body>
+    <div class="bunny-img top" >
+      <a href="../index.html"><h1>Erica's blog</h1></a>
+    </div>
+    <!--ahref to each page-->
+    <div><!--ahref tag to be done--></div>
+    <div class="flex-container">
+      <!--Left section (profile photo & homework & photos-->
+      <div class="left-side">
+        <section> <!--introduction-->
+          <img id="profile-photo" src="../img/profile photo.jpg" alt="profie photo">
+          <h3>About the blog</h3>
+          <p>Hello and welcome!<br>
+            This is my blog to practice coding</p>
+        </section>
+        <section class="large-margin-top"> <!--homework-->
+          <h3>Homework</h3>
+          <p> <a href="blog/te-houtaewa-template.html" target="_blank">Te-houtaewa</a href></p>
+          <p><a href="list-of-homework.html">Technical learning</a></p>
+        </section>
+        <section class="large-margin-top"> <!--photos-->
+          <h3>Photos</h3>
+          <p>Artemis</p>
+          <p>Coffee</p>
+        </section>
+      </div> 
+      <!--Middle section (latest posts)-->
+      <div class="middle">
+        <div class="content">
+          <h2>Display inline vs inline blocks</h2>
+          <h4>Aim:</h4>
+          <ul>
+            <li>Know the differences between inline vs inline-block</li>
+            <li>Make an example of inline and inline-block</li>
+          </ul>
+          <p>Every HTML element has a default display value, depending on what type of element it is.<br>
+              The two most common display values are block and inline.</p><br>
+          <h3 class="blue-color">Display: Inline</h3>
+          <ul>
+            <li>An inline element does not start on a new line</li>
+            <li>It only takes up as much width as necessary</li>
+            <li>Top and bottom margins/paddings are not respected</li>
+          </ul>
+          <p>e.g.</p>
+          <div class="inline">
+            <img class="small-img" src="../blog/homework img/display-inline-original.png"><img class="arrow" src="../blog/homework img/arrow.png"><img class="small-img-code" src="../blog/homework img/display-inline-code.png"><img class="arrow" src="../blog/homework img/arrow.png"><img class="small-img" src="../blog/homework img/display-inline-result.png"></li>
+          </div><br>
+         <h3 class="blue-color">Display: Block</h3>
+          <ul>
+            <li>A block element always starts on a new line</li>
+            <li>Browsers add some space (a margin) before and after the element</li>
+            <li>Always takes up the full width available (stretches out to the left and right as far as it can)</li>
+          </ul>
+          <p>e.g.</p>
+          <div class="inline">
+            <img class="small-img" src="../blog/homework img/display-block-original.png"><img class="arrow" src="../blog/homework img/arrow.png"><img class="small-img-code" src="../blog/homework img/display-block-code.png"><img class="arrow" src="../blog/homework img/arrow.png"><img class="small-img" src="../blog/homework img/display-block-result.png"></li>
+          </div><br>
+         <h3 class="blue-color">Display: inline-Block</h3>
+          <ul>
+            <li>Inline-block element allows you to set a width and height on the element</li>
+            <li>Top and bottom margins are respected</li>
+            <li>Does not add line-break after the element, so the element can sit next to other element</li>
+            <li>Commonly used to display list items horizontally instead of vertically</li>
+          </ul>
+          <p>e.g.</p>
+        <div class="inline">
+          <img class="small-img" src="../blog/homework img/display-inline-block-original.png"><img class="arrow" src="../blog/homework img/arrow.png"><img class="small-img-code" src="../blog/homework img/display-inline-block-code.png"><img class="arrow" src="../blog/homework img/arrow.png"><img class="small-img" src="../blog/homework img/display-inline-block-result.png"></li>
+        </div>
+      </div>
+      </div>
+      <!--Right section (Inspiring words ? bible verses-->
+      <div class="right-side">
+        <section> <!--inspiring words-->
+          <h3>Today's inspiring quote</h3><br>
+          <p>The LORD is my strength and my shield; my heart trusted in him, and I am helped: Therefore my heart greatly rejoiceth; and with my song will I praise him.<br><br>
+          <a href="https://www.biblegateway.com/passage/?search=Psalm%2028%3A7&version=NIV" target="_blank"><span class="bold">Psalm 28:7</span></p></a>
+        </section>
+        <section> <!--blank space for future--></section>
+        <section> <!--photo of Juesus-->
+          <img id="artemis-img" src="../img/Artemis.jpg" alt="photo of dog">
+        </section>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
