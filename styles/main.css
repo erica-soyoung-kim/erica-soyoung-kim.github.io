@@ -14,3 +14,36 @@ h1 {
   bottom: 0;
   left: 5vw;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#profile-photo {
+  width: max(80px, 10vw);
+}
+
+
+.left-side {
+  margin: 2vw;
+  max-width: 15vw;
+}
+
+.middle {
+  max-width: 60vw;
+}
+
+.right-side {
+  max-width: 15vw;
+  margin: 2vw;
+}
+
+.medium-margin{
+  margin: 4px;
+}
+
+.minimum-margin {
+  margin: 2px;
+}
