@@ -40,10 +40,14 @@ h1 {
   margin: 2vw;
 }
 
-.medium-margin{
+h3 {
   margin: 4px;
 }
 
-.minimum-margin {
+p {
   margin: 2px;
+}
+
+.large-margin-top {
+  margin-top: 50px;
 }
