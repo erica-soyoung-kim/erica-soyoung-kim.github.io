@@ -18,26 +18,33 @@ h1 {
 .flex-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-content: flex-start;
 }
 
-#profile-photo {
-  width: max(80px, 10vw);
+#profile-photo, #jesus-img {
+  width: max(80px, 15vw);
 }
 
+#jesus-img {
+  opacity: 0.75;
+  position: absolute;
+  bottom: 0;
+}
 
 .left-side {
   margin: 2vw;
-  max-width: 15vw;
+  width: 15vw;
 }
 
 .middle {
-  max-width: 60vw;
+  width: 60vw;
+  margin: 2vw;
 }
 
 .right-side {
-  max-width: 15vw;
+  width: 15vw;
   margin: 2vw;
+  position: relative;
 }
 
 h3 {
@@ -50,4 +57,39 @@ p {
 
 .large-margin-top {
   margin-top: 50px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-side, .middle, .right-side {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2vh;
+  }
+  #jesus-img {
+    display: none;
+  }
+  #profile-photo {
+    display: block;
+    width: 100%; 
+    float: left;
+    margin-bottom: 2vh;
+  }
+  .bunny-img {
+    background-image: url("../img/main-img-phone-scale.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 30vh;
+    }
+  h1{
+    font-size: 20px;
+  }
 }
