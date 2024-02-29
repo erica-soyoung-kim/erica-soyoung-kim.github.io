@@ -54,11 +54,12 @@ h2 {
 }
 
 h3 {
-  margin: 4px;
+  margin: 2vh 0 2vh 0;
 }
 
 p {
   margin: 2px;
+  margin-bottom: 2vh;
 }
 
 .content {
