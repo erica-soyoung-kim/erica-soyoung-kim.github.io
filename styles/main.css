@@ -1,0 +1,16 @@
+.bunny-img {
+  background-image: url("../img/main-img-edit.jpg");
+  min-height: 45vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top {
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  bottom: 0;
+  left: 5vw;
+}
