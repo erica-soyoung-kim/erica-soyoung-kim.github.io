@@ -13,6 +13,7 @@ h1 {
   position: absolute;
   bottom: 0;
   left: 5vw;
+  color: black !important;
 }
 
 .flex-container {
@@ -47,12 +48,21 @@ h1 {
   position: relative;
 }
 
+
+h2 {
+  margin: 0;
+}
+
 h3 {
   margin: 4px;
 }
 
 p {
   margin: 2px;
+}
+
+.content {
+  margin: 0;
 }
 
 .large-margin-top {
@@ -71,6 +81,78 @@ a:link, a:visited {
 a:hover {
   text-decoration: underline;
 }
+
+.homework-section {
+  border-style: solid;
+  border-radius: 8px;
+  padding: 5px;
+  margin-bottom: 5vh;
+  text-indent: 2vw;
+  border-color:rgb(219, 129, 10)
+}
+
+div > img {
+  width: 20%;
+  height: auto;
+}
+
+
+.a {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  padding: 7px;
+  border-style: solid;
+  background-color: yellow;
+}
+
+.inline .eg {
+  display: inline-block;
+}
+
+.inline {
+  margin: 0;
+  padding: 0;
+}
+
+.arrow {
+  width: 3vw;
+  height: auto;
+}
+
+.b {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 7px;
+  border-style: solid;
+  background-color: yellow;
+}
+
+.c {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 7px;
+  border-style: solid;
+  background-color: yellow;
+}
+
+.blue-color {
+  margin-top: 4vh;
+  color: blue;
+}
+
+.small-img {
+  max-width: 33%;
+  height: auto;
+}
+
+.small-img-code {
+  max-width: 20%;
+  height: auto;
+}
+
 
 @media only screen and (max-width: 600px) {
   .flex-container {
