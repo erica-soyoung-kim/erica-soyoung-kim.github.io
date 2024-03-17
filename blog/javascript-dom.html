@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning plan</title>
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <!--top photo page-->
+    <div class="bunny-img top" >
+      <a href="../index.html"><h1>Erica's blog</h1></a>
+    </div>
+    <!--ahref to each page-->
+    <div><!--to be done--></div>
+    <div class="flex-container">
+      <!--Left section (profile photo & homework & photos-->
+      <div class="left-side">
+        <section> <!--introduction-->
+          <img id="profile-photo" src="../img/profile photo.jpg" alt="profie photo">
+          <h3>About the blog</h3>
+          <p>Hello and welcome!<br>
+            This is my blog to practice coding</p>
+        </section>
+        <section class="large-margin-top"> <!--homework-->
+          <h3>Homework</h3>
+          <p> <a href="../blog/te-houtaewa-template.html" target="_blank">Te-houtaewa</a href></p>
+          <p><a href="../list-of-homework/list-of-homework.html">Technical learning</a></p>
+        </section>
+        <section class="large-margin-top"> <!--photos-->
+          <h3>Photos</h3>
+          <p>Artemis</p>
+          <p>Coffee</p>
+        </section>
+      </div> 
+      <!--Middle section (latest posts)-->
+      <div class="middle">
+        <h2>JavaScript - DOM</h2>
+        
+        <h3>1. An analogy to describe JavaScript and its relationship to HTML and CSS.</h3>
+        <p>Imagine your webpage is a house, <span class="bold">HTML</span> is the structure of the house.<br>
+          <span class="bold">CSS</span> is the interior design, such as colour, font, etc. <br>
+          <span class="bold">JavaScript</span> is like the function of the house, such as electricity and plumbing. In webpage, it represents interactive form or animations.</p><br>
+        
+        <h3>2. Explain control flow and loops using an example process from everyday life, for example, 'waking up' or 'brushing your teeth' (but not those).</h3>
+        <p>
+          <span class="bold">Control flow</span> is like the steps you follow. <br>
+          For example, let's say you are going to work some days in a week. <br>
+          When you wake up, if it is your working day, then you go to work. <br>
+          Or else (if it is NOT your working day), then you do not go to work, stay at home and do some housework. <br>
+          <img src="../blog/homework img/ControlFlowJS.png" alt="JS example screenshot for Control flow"><br><br>
+
+          <span class="bold">Loop</span> is like repeating tasks.<br> 
+          For example, you exercise everyday for 30 minutes until you reach desired weight. <br>
+          Everyday, you loop (exercise) until the condition is fulfilled (reach desired weight).<br>
+          <img src="../blog/homework img/LoopJS.png" alt="JS example screenshot for loop"><br><br>
+        </p>
+        
+        <h3>3. Describe what the DOM is and an example of how you might interact with it.</h3>
+        <p>
+          DOM stands for Document Object Model. <br> 
+          When you open a web page in your browser, the browser creates a tree-like structure for the page. Here is the example.<br><br>
+          <img src="../blog/homework img/domTree.png"><br><br>
+          You can interact with elements by using "document.getElementByID('ID name')" or "document.getElementByClass('Class name')"
+
+        </p>
+        
+        <h3>4. Explain the difference between accessing data from arrays and objects.</h3>
+        <p>
+          <span class="bold">Arrays</span> are ordered collections of value. Each value has a numeric index, starting from '0' and you can access elements in an array by using their numeric index using [  ]. Here is the example.<br><br>
+          <img src="../blog/homework img/ArrayJS.png"><br><br>
+          <span class="bold">Object</span> are collections of key-value. Each key is unique and you can access values in an object by using their key. It does not have any specific order. Here is the example.<br><br>
+          <img src="../blog/homework img/ObjectJS.png"><br><br>
+        </p>
+        
+        <h3>5. Explain what functions are and why they are helpful.</h3>
+        <p>A function is a storage for a block of reusable code that performs a specific task or calculates a value.<br>
+          By using function, you do not need to write long same code over and over again.<br>
+          If you set a function already, you can just call the function to do the work that you have already declared it to do. Here is the example.<br><br>
+          <img src="../blog/homework img/functionJS.png"><br><br>
+        </p>
+        
+      </div>
+      <!--Right section (Inspiring words ? bible verses-->
+      <div class="right-side">
+        <section> <!--inspiring words-->
+          <h3>Today's inspiring quote</h3><br>
+          <p>The LORD is my strength and my shield; my heart trusted in him, and I am helped: Therefore my heart greatly rejoiceth; and with my song will I praise him.<br><br>
+          <a href="https://www.biblegateway.com/passage/?search=Psalm%2028%3A7&version=NIV" target="_blank"><span class="bold">Psalm 28:7</span></p></a>
+        </section>
+        <section> <!--blank space for future-->
+
+        </section>
+        <section> <!--photo of Juesus-->
+          <img id="artemis-img" src="../img/Artemis.jpg" alt="photo of artemis">
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
