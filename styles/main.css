@@ -154,6 +154,42 @@ div > img {
   height: auto;
 }
 
+.tbl {
+  border: 1px solid black;
+  border-collapse: collapse;
+  vertical-align: inherit;
+  table-layout: fixed;
+  width: 100%
+
+}
+
+.tbl th, .tbl tr, .tbl td {
+  border: 1px solid black;
+  padding: 10px
+}
+
+thead th:nth-child(1) {
+  width: 40%;
+}
+
+thead th:nth-child(2) {
+  width: 60%;
+}
+
+
+/* <tr>
+<th style="border:1px solid red;">Table Header</th><th style="border:1px solid red;">Table Header</th>
+</tr>
+<tr>
+<td style="border:1px solid red;">Table cell 1</td><td style="border:1px solid red;">Table cell 2</td>
+</tr>
+<tr>
+<td style="border:1px solid red;">Table cell 3</td><td style="border:1px solid red;">Table cell 4</td>
+</tr>
+</table> */
+
+
+
 
 @media only screen and (max-width: 600px) {
   .flex-container {
